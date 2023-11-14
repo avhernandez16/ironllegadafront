@@ -13,7 +13,7 @@ import { EditIronLlegadaModal } from '../../../ui/EditIronLlegadaModal';
 import { ShowIronLlegadaId } from '../../../ui/ShowIronLlegadaId';
 
 
-export const IronLlegada = () => {
+const IronLlegada = () => {
   const [ironLlegadaId, setIronLlegadaId] = useState('');  
   const [errorState, setErrorState] = useState(false);
   const [inputSearch, setInputSearch] = useState('');
@@ -150,3 +150,5 @@ export const IronLlegada = () => {
     </div>
   )
 }
+
+export default IronLlegada;
